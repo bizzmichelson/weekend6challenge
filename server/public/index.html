@@ -8,9 +8,23 @@
     <script src="scripts/client.js" charset="utf-8"></script>
     <script src="scripts/user.controller.js" charset="utf-8"></script>
     <script src="scripts/github.service.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    
   </head>
   <body ng-app="myApp">
-    <h1>Hello World</h1>
+    <h1>Elizabeth (Bizz) Michelson</h1>
+     <div class ="container-fluid">     
+              <div class="navbar">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsedNav">                            
+                      <ul>
+                          <li>
+                              <a href="/user">See GitHub User Info</a>
+                          </li>
+                          <li> <a href="/repos">See GitHub Repo Info</a>
+                          </li>
+                      </ul>
+                  </div>  
+              </div>
     <main ng-view>
 
     </main>

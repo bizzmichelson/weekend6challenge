@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "### Objectives - Angular practice with multiple views, controllers, and a service - Front end styling - Hosting without a database on Heroku",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,6 +15,16 @@
     "angular-route": "^1.6.5",
     "dotenv": "^4.0.0",
     "express": "^4.15.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
     "request": "^2.81.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizzmichelson/Weekend-6-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bizzmichelson/Weekend-6-Portfolio/issues"
+  },
+  "homepage": "https://github.com/bizzmichelson/Weekend-6-Portfolio#readme"
 }
